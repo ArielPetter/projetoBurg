@@ -70,3 +70,65 @@ p {
 .item-price {
     color: #79cb15;
 }
+
+@media screen and (max-width: 650px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    li {
+        width: 40%;
+        margin-left: 32%;
+
+    }
+
+    ul {
+        gap: 0px;
+        width: 100%;
+        margin-top: 0px;
+        display: block;
+    }
+
+    button {
+        width: 50%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    * {
+        position: relative;
+    }
+
+    .container-buttons {
+        margin: 40px 0;
+        width: 100%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 0;
+    }
+
+    li {
+        width: 45%;
+    }
+
+    ul {
+        position: relative;
+        gap: 0px;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0;
+    }
+}
